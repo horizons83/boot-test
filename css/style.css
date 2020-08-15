@@ -54,6 +54,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.monthly-container {
+    background: url("../images/best-whiskey.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .quotes-container {}
 
 .features-container {}
@@ -199,4 +207,19 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.favorites {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.table {
+    text-align: center;
+}
+
+.monthly-favorites {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
